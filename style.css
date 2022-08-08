@@ -1,0 +1,100 @@
+/* Sets styling and controls for the body elements */
+body {
+    font-family: 'Avanta Garde', sans-serif;
+    font-size: 18px;
+    line-height: 1.1;
+    background-color: rgb(174, 207, 225);
+  }
+
+/* Removes some effects of control and adds styling */
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    border-left: 5px solid #6c93ce;
+    padding: 10px;
+  }
+  
+  /* Sets controls for the header */
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid rgb(107, 107, 107);
+  }
+  
+  /* sets .description to pre-wrap white-space. Controls the whitespace */
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  /* Sets controls for time-block */
+  .time-block{
+    text-align: left;
+    border-radius: 15px;
+  }
+
+  /* Sets controls and spacing for the hourBlock .rows */
+  .row {
+    white-space: pre-wrap;
+    border-top: 1px solid;
+    height: 100px;
+  }
+
+  /* Sets display styling of .hour  */
+  .hour {
+    background-color: rgb(206, 206, 206);
+    color: #000000;
+    font-size: 17px;
+  }
+  
+  /* Sets display styling of the past element */
+  .past {
+    background-color: #acacac;
+    color: white;
+    border-right: 6px solid #a49999;
+    border-left: 6px solid #a49999;
+    border-top: 3px solid #a49999;
+    border-bottom: 3px solid #a49999;
+  }
+  
+  /* Sets display styling of the present element */
+  .present {
+    background-color: rgb(223, 148, 107);
+    color: white;
+    border-right: 6px solid rgb(225, 133, 84);
+    border-left: 6px solid rgb(225, 133, 84);
+    border-top: 3px solid rgb(225, 133, 84);
+    border-bottom: 3px solid rgb(225, 133, 84);
+  }
+  
+  /* Sets display styling of the future element */
+  .future {
+    background-color: #90c990;
+    color: white;
+    border-right: 6px solid #54a554;
+    border-left: 6px solid #54a554;
+    border-top: 3px solid #54a554;
+    border-bottom: 3px solid #54a554;
+  }
+  
+  /* Sets design and coloring of saveBtn */
+  .saveBtn {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #6c93ce;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Creates hover effect for font when user hovers on the saveBtn */
+  .saveBtn i:hover {
+    font-size: 50px;
+  }
+
+  /* Sets padding to top of thankyou note at end of planner */
+  .thankYou {
+    padding-top: 20px;
+    text-align: center;
+  }
